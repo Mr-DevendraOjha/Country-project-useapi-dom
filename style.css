@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;;
+}
+#countryname{
+    text-align: center;
+}
+.contanier{
+margin-top: 10px;
+display: flex;
+width: 100%;
+background-color: blue;
+min-height: 500px;
+padding: 10px;
+
+}
+.flag{
+    width: 30%;
+    background-color:aliceblue;
+   padding: 5px;
+   min-height: 500px;
+   
+    }
+    #flagsrc{
+        width: 100%;
+    margin-bottom: 4px;
+    max-height: 200px;
+    object-fit: fill;
+    }
+    #themsrc{
+        width: 100%;
+        max-height: 400px;
+        object-fit: fill;
+        margin-bottom: 4px;
+        }
+    .hrtag{
+       background-color:  black;
+       padding:2px;
+       margin-bottom: 4px;
+    }
+    
+.lable_input{
+    display: flex;
+    width: 70%;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+ .two_part{    
+    width: 50%;
+    background-color: aquamarine; 
+}
+.input{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.lable{
+   
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.input_style{
+    width:100%;
+    text-align: center;
+    font-size: larger;
+    padding: 8px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: none;
+}
+
+.currencies{
+    width:100% ;
+    margin-bottom: 10px;    
+    padding: 10px;
+    border: 1px solid black;
+ }
+
